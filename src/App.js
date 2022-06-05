@@ -11,9 +11,10 @@ function App() {
           country="Suecia"
           jobTitle="Ingeniera de Software"
           company="Spotify"
-          testimony='"Sergio es todo un profesional de la programación.
+          testimony="Sergio es todo un profesional de la programación.
           Ha sido un auténtico placer conocerlo y verlo trabajar.
-          A su lado he podido aprender un montón sobre código limpio y buenas prácticas."'
+          A su lado he podido aprender un montón sobre código limpio y buenas prácticas.
+          Su trabajo me ha servido de inspiración y me ha ayudado a mejorar como profesional."
           image=""
         />
       </main>

@@ -12,7 +12,7 @@ function TestimonialCard(props) {
             <section className="testimonial-text-container">
                 <p className="testimonial-name"> {props.name} en {props.country}</p>
                 <p className="testimonial-job-title">{props.jobTitle} en {props.company}</p>
-                <p className="textimonial-text">{props.testimony}</p>
+                <p className="testimonial-text">"{props.testimony}"</p>
             </section>
         </article>
     );
