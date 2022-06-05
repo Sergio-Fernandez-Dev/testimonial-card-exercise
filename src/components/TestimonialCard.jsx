@@ -7,8 +7,7 @@ function TestimonialCard(props) {
             <img
                 className="testimonial-img"
                 src={require(`../img/testimonialCard-${props.image}.png`)}
-                alt={`Foto de ${props.name}`}
-            />
+                alt={`Foto de ${props.name}`} />
             <section className="testimonial-text-container">
                 <p className="testimonial-name">
                     <strong>{props.name}</strong> en {props.country}

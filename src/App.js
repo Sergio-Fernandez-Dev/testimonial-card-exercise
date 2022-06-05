@@ -14,8 +14,7 @@ function App() {
           testimony="Trabajar junto a Sergio ha sido una de las mejores experiencias que he tenido en el ámbito laboral.
           No solo hace que lo dificil parezca sencillo, si no que además, siempre está dispuesto a echar una mano allí
           donde haga falta."
-          image="shawn"
-        />
+          image="shawn" />
         <TestimonialCard 
           name="Emma Bostian "
           country="Suecia"
@@ -25,8 +24,7 @@ function App() {
           Ha sido un auténtico placer conocerlo y verlo trabajar.
           A su lado he podido aprender un montón sobre código limpio y buenas prácticas.
           Su trabajo me ha servido de inspiración y me ha ayudado a mejorar profesionalmente."
-          image="emma"
-        />
+          image="emma" />
         <TestimonialCard 
           name="Sarah Chima "
           country="Estados Unidos"
@@ -35,8 +33,7 @@ function App() {
           testimony="En mis 18 años de carrera he tenido el placer de trabajar con algunos de los mejores
           profesionales de sector. Tal vez la carrera de Sergio no haya hecho más que empezar, pero puedo decir,
           sin miedo a equivocarme, que su pasión y su dedicación lo llevarán lejos."
-          image="sarah"
-        />
+          image="sarah" />
       </main>
     </div>
   );
