@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import TestimonialCard from './components/TestimonialCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main className='main-container'>
+        <h1>Lo que otras personas dicen de mí</h1>
+        <TestimonialCard 
+          name="Emma Bostian "
+          country="Suecia"
+          jobTitle="Ingeniera de Software"
+          company="Spotify"
+          testimony='"Sergio es todo un profesional de la programación.
+          Ha sido un auténtico placer conocerlo y verlo trabajar.
+          A su lado he podido aprender un montón sobre código limpio y buenas prácticas."'
+          image=""
+        />
+      </main>
     </div>
   );
 }
