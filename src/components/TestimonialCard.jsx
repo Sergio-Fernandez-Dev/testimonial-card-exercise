@@ -6,13 +6,19 @@ function TestimonialCard(props) {
         <article className="testimonial-container">
             <img
                 className="testimonial-img"
-                src={require("../img/testimonialCard-emma.png")}
-                alt="Foto de Emma"
+                src={require(`../img/testimonialCard-${props.image}.png`)}
+                alt={`Foto de ${props.name}`}
             />
             <section className="testimonial-text-container">
-                <p className="testimonial-name"> {props.name} en {props.country}</p>
-                <p className="testimonial-job-title">{props.jobTitle} en {props.company}</p>
-                <p className="testimonial-text">"{props.testimony}"</p>
+                <p className="testimonial-name">
+                    <strong>{props.name}</strong> en {props.country}
+                </p>
+                <p className="testimonial-job-title">
+                    {props.jobTitle} en <strong>{props.company}</strong>
+                </p>
+                <p className="testimonial-text">
+                    "{props.testimony}"
+                </p>
             </section>
         </article>
     );
